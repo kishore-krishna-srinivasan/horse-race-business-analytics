@@ -73,7 +73,6 @@
 
 ## 🔄 Analytical Workflow
 
-```text
 Raw Racing Data
        │
        ▼
