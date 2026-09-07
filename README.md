@@ -1,3 +1,117 @@
+# 🏇 Horse Race Business Analytics
+
+**A practical business analytics project analysing historical UK and Ireland horse racing data using R, exploratory data analysis, statistical analysis and comparative machine learning.**
+
+**The project investigates factors associated with race outcomes and evaluates multiple regression approaches for predicting finishing position.**
+
+> **MSc Practical Business Analytics — University of Surrey**
+
+---
+
+## 📌 Overview
+
+**Horse racing data contains a mixture of numerical, categorical and historical performance information, making it a useful case study for applied business analytics and predictive modelling.**
+
+**This project uses a large historical dataset covering UK and Ireland horse racing results from 2005 to 2019. The analysis combines data cleaning, exploratory analysis, feature engineering, statistical investigation and machine learning to examine relationships within race data and compare predictive approaches.**
+
+**The main objective was to develop and evaluate models capable of predicting horse finishing position while understanding the characteristics and limitations of different modelling approaches.**
+
+---
+
+## 📊 Dataset
+
+**The original dataset contains:**
+
+- **744K+ rows**
+- **42 columns**
+- **UK and Ireland racing data**
+- **Coverage from 2005 to 2019**
+- **Numerical and categorical variables**
+- **Race, horse, jockey, trainer and performance-related information**
+
+**Examples of variables used in the analysis include:**
+
+- **Race ID**
+- **Course**
+- **Race distance**
+- **Going**
+- **Race group**
+- **Race type**
+- **Number of runners**
+- **Horse name**
+- **Trainer**
+- **Jockey**
+- **Age**
+- **Weight**
+- **Official Rating**
+- **Top Speed**
+- **Racing Post Rating**
+- **Sire**
+- **Dam**
+- **Expected chance**
+- **Finishing position**
+
+**The raw dataset is not included in this repository.**
+
+---
+
+## 🎯 Business Analytics Objective
+
+**The project explores how historical race information can be transformed into analytical insights and predictive models.**
+
+**The main objectives were to:**
+
+1. **Clean and prepare a large real-world dataset.**
+2. **Explore relationships between race characteristics and finishing position.**
+3. **Transform categorical and numerical variables into modelling-ready representations.**
+4. **Compare different statistical and machine learning approaches.**
+5. **Evaluate models using consistent performance metrics.**
+6. **Analyse model behaviour and identify useful predictive factors.**
+7. **Use the results to understand the strengths and limitations of different approaches.**
+
+---
+
+## 🔄 Analytical Workflow
+
+```text
+Raw Racing Data
+       │
+       ▼
+Data Cleaning
+       │
+       ▼
+Missing Value Handling
+       │
+       ▼
+Data Transformation
+       │
+       ▼
+Exploratory Data Analysis
+       │
+       ▼
+Feature Engineering
+       │
+       ▼
+Categorical Encoding
+       │
+       ▼
+Outlier Treatment & Scaling
+       │
+       ▼
+Correlation Analysis
+       │
+       ▼
+Training / Test Split
+       │
+       ▼
+10 Predictive Models
+       │
+       ▼
+RMSE / MAE / R² Evaluation
+       │
+       ▼
+Model Comparison & Interpretation
+
 ## 🧹 **Data Cleaning**
 
 **The R workflow begins by loading and inspecting the original CSV dataset.**
